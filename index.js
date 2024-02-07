@@ -14,6 +14,10 @@ fs.writeFile(myFilePath , myContent ,(err) =>{
 
 //Adding text
 const mycontent="\nAdded by youssed."
+const mycontent2 ="\nAdded by driss."
 fs.appendFile(myFilePath, mycontent, (err) => {
+    err ? console.log(err) : console.log('Added succesfully.');
+})
+fs.appendFile(myFilePath, mycontent2, (err) => {
     err ? console.log(err) : console.log('Added succesfully.');
 })
