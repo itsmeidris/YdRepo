@@ -2,7 +2,7 @@
 const fs = require('fs');
 
 //My Content to be displayed
-const myContent = "Hello World from writing module system file by Edris";
+const myContent = "Hello World from WRITING module system file by Edris";
 
 //Specifying the file path and name
 const myFilePath = 'readMe.md';
