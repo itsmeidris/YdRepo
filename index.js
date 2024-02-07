@@ -12,3 +12,8 @@ fs.writeFile(myFilePath , myContent ,(err) =>{
     console.log('File added succesfully.');
 });
 
+//Adding text
+const mycontent="\nAdded by youssed."
+fs.appendFile(myFilePath, mycontent, (err) => {
+    err ? console.log(err) : console.log('Added succesfully.');
+})
